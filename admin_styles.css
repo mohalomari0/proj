@@ -1,0 +1,120 @@
+/* الألوان العامة */
+:root {
+    --primary-color: #007bff; /* اللون الأساسي */
+    --secondary-color: #6c757d; /* اللون الثانوي */
+    --success-color: #28a745; /* لون النجاح */
+    --danger-color: #dc3545; /* لون الخطأ */
+    --warning-color: #ffc107; /* لون التحذير */
+    --info-color: #17a2b8; /* لون المعلومات */
+    --light-color: #f8f9fa; /* لون فاتح */
+    --dark-color: #343a40; /* لون غامق */
+  }
+  
+  /* تحسين الأزرار */
+  .btn-custom {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #0056b3; /* لون الخلفية عند التحويم */
+    transform: translateY(-2px); /* تأثير التحويم */
+  }
+  
+  .btn-custom-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+  
+  .btn-custom-success {
+    background-color: var(--success-color);
+    color: #fff;
+  }
+  
+  .btn-custom-danger {
+    background-color: var(--danger-color);
+    color: #fff;
+  }
+  
+  .btn-custom-warning {
+    background-color: var(--warning-color);
+    color: #000;
+  }
+  
+  .btn-custom-info {
+    background-color: var(--info-color);
+    color: #fff;
+  }
+  
+  /* تحسين الجداول */
+  .table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-custom th,
+  .table-custom td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-custom th {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .table-custom tr:hover {
+    background-color: #f1f1f1; /* لون الخلفية عند التحويم */
+  }
+  
+  /* تحسين الألوان العامة */
+  .text-primary-custom {
+    color: var(--primary-color);
+  }
+  
+  .text-secondary-custom {
+    color: var(--secondary-color);
+  }
+  
+  .bg-primary-custom {
+    background-color: var(--primary-color);
+  }
+  
+  .bg-secondary-custom {
+    background-color: var(--secondary-color);
+  }
+  
+  /* تحسين النماذج (Forms) */
+  .form-control-custom {
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-control-custom:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* تحسين الروابط */
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
